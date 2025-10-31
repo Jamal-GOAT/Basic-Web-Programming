@@ -20,7 +20,7 @@ body {
     gap: 60px;
     z-index: 100;
     align-items: center;
-    justify-content: space-between;
+    justify-content: flex-start;
 }
 
 .icons {
@@ -28,6 +28,7 @@ body {
     flex-direction: row;
     height: 40%;
     gap: 30px;
+    justify-self: flex-end;
 }
 
 

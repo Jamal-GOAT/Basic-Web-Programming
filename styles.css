@@ -5,6 +5,7 @@ body {
     background-repeat: no-repeat;
     font-family: 'Poppins', sans-serif;
     color: white;
+    max-width: 100dvw;
 }
 
 .top {

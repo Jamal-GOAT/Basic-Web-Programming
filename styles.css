@@ -2,7 +2,6 @@ body {
     background-image: url(background.png);
     margin: 0;
     background-size: contain;
-    background-repeat: no-repeat;
     font-family: 'Poppins', sans-serif;
     color: white;
     max-width: 100dvw;

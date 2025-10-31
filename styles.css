@@ -9,6 +9,7 @@ body {
 
 .top {
     display: flex;
+    max-width: 100dvw;
     flex-direction: row;
     top: 0;
     right: 0;
@@ -246,6 +247,7 @@ nav {
     width: 100%;
     justify-content:flex-start;
     align-items: center;
+    height: 40px
 }
 
 

@@ -11,6 +11,7 @@ body {
     width: 100dvw;
     height: 100dvh;
     z-index: -1;
+    transition: filter 0.3s ease-in-out;
 }
 
 .img img {
@@ -101,6 +102,9 @@ body {
     pointer-events: auto;
 }
 
+.sidebar:target ~.img {
+    filter: brightness(0.5);
+}
 .text {
     display: flex;
     flex-direction: column;
@@ -330,4 +334,3 @@ nav {
         font-size: 50px;
     }
 }
-
